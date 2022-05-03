@@ -11,6 +11,7 @@ Funtional requirement:
 
 -user can save their customized curriculum
 
+-----------------------------------------------------------------------
 
 Non functional requirements:
 
@@ -23,4 +24,6 @@ Non functional requirements:
 -use of SQLite
 
 -use of Css
+
+-----------------------------------------------------------------------
 
