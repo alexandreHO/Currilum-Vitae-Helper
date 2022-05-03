@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Photo</h1>
-    <p>!!!!!!!User photo input!!!!!!</p>
 
-    <h2>Name</h2>
-    <p>!!!!!!User input!!!!!!</p>
+<script src="Script.js"></script>
+
+<body>
+    <div id="divPhoto">
+        <h1>PHOTO</h1>
+        
+    </div>
+
+    <div id = "divRight">
+        <label for="headers"></label>
+        <select>
+            <option value="objective">Objective</option>
+            <option value="exp">Experience</option>
+            <option value="pInfo">Personal Information</option>
+            <option value="skills">Skills</option>
+            <option value="about">About</option>
+        </select>
+
+        <h1>Name</h1>
+        <input id="uInput" placeholder="Enter your name">
+        <br>
+
+        <h1>Objective</h1>
+        <input id="uInput" placeholder="Describe your objectives">
+
+        <h1>Experience</h1>
+        <input id="uInput" placeholder="Describe your experiences">
+
+        <h1>Personal Information</h1>
+        <input id="uInput" placeholder="Enter your personal information">
+    </div>
+
+    <div id = "divLeft">
+        <h1>Skills</h1>
+        <input id="uInput" placeholder="Enter your name">
+
+        <h1>About</h1>
+        <input id="uInput" placeholder="Enter your name">
+    </div>
 </body>
 </html>

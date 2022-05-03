@@ -1,0 +1,33 @@
+h1 {
+    width: 400px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+    color: #b3ffff
+}
+
+input{
+    color: yellowgreen;
+}
+
+#headers{
+    
+}
+
+div {
+    float: left;
+}
+
+#divPhoto , p{
+    border: #b3ffff;
+    color: #b3ffff;
+    
+}
+
+#divRight{
+
+}
+
+#divLeft{
+
+}
